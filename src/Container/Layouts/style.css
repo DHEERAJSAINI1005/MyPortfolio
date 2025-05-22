@@ -1,0 +1,99 @@
+.header-container{
+    /* background-color: rgb(17, 113, 191) !important;  */
+    border-style: none !important;
+    box-shadow: none !important;
+    padding:10px;
+}
+.nav-buttons {
+    /* color: #fff; */
+    background-color: transparent;
+    /* color: #308d46; */
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.nav-buttons:hover,
+.nav-buttons.active {
+    color: #308d46; /* Retain hover color for active state */
+    text-decoration: none; 
+}
+.main-container{
+    min-height: 100%;
+    padding: 0px !important;
+    
+}
+.main-footer .MuiPaper-root{
+    padding: 0px !important;
+}
+.main-body {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+.primary-color {
+    h1{
+        font-weight: bolder;
+        font-size: 48px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+    h6{
+        color: #308d46;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-top: 0; 
+    }
+    
+    
+}
+.my-logo-image {
+    animation: myAnimation 10s infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        filter: hue-rotate(355deg);
+    }
+    8%{
+        filter: hue-rotate(30deg);
+    }
+    16%{
+        filter: hue-rotate(60deg);
+    }
+    24%{
+        filter: hue-rotate(90deg);
+    }
+    32%{
+        filter: hue-rotate(120deg);
+    }
+    40%{
+        filter: hue-rotate(150deg);
+    }
+    48%{
+        filter: hue-rotate(180deg);
+    }
+    56% {
+        filter: hue-rotate(210deg);
+    }
+    64% {
+        filter: hue-rotate(240deg);
+    }
+    72% {
+        filter: hue-rotate(270deg);
+    }
+    80% {
+        filter: hue-rotate(300deg);
+    }
+    88% {
+        filter: hue-rotate(330deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

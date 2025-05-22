@@ -1,0 +1,37 @@
+
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7b733"/>
+      <stop offset="100%" stop-color="#fc4a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="black"/>
+
+  <!-- Crown -->
+  <path fill="url(#goldGradient)" d="M150 40 
+    C145 70, 135 60, 130 45 
+    C125 60, 115 70, 110 45 
+    C105 60, 95 70, 90 40 
+    C110 25, 190 25, 210 40 
+    C205 70, 195 60, 190 45 
+    C185 60, 175 70, 170 45 
+    C165 60, 155 70, 150 40 Z"/>
+
+  <!-- Circle -->
+  <circle cx="150" cy="150" r="70" fill="url(#goldGradient)" />
+
+  <!-- Letter D -->
+  <text x="150" y="165" text-anchor="middle" fill="black" font-size="70" font-family="Times New Roman" font-weight="bold">D</text>
+
+  <!-- Laurel Leaves -->
+  <path fill="url(#goldGradient)" d="M60 230 
+    Q80 200, 120 215 
+    Q90 195, 95 185 
+    Q120 190, 140 210 
+    Q160 190, 185 185 
+    Q190 195, 160 215 
+    Q200 200, 240 230 
+    Q180 220, 150 240 
+    Q120 220, 60 230 Z"/>
+</svg>
