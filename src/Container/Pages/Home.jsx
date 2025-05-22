@@ -90,12 +90,12 @@ function Home() {
                             <Box my={5} textAlign={'left'}>
                                 <Grid container spacing={2} justifyContent="left">
                                     <Grid item xs={12} sm={12} md={4} textAlign={'center'}> {/* Change sm={6} to sm={4} */}
-                                        <a style={{ width: '80%' }} href="/Pdf/TajinderResume.pdf" className="project-button text-center" download>
+                                        <a style={{ width: '100%' }} href="/Pdf/dheerajResume.pdf" className="project-button text-center" download>
                                             Download CV
                                         </a>
                                     </Grid>
                                     <Grid item xs={12} sm={12} md={4} textAlign={'center'}> {/* Change sm={6} to sm={4} */}
-                                        <Link to="/projects" className="project-button text-center" style={{ width: '80%' }}>
+                                        <Link to="/projects" className="project-button text-center" style={{ width: '100%' }}>
                                             <span className='pr-2'>Projects</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="2 0 18 18">
                                                 <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
